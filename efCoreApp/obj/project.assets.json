@@ -1270,11 +1270,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Azat\\Documents\\GitHub\\AspNetCore_Works\\efCoreApp\\efCoreApp.csproj",
+      "projectUniqueName": "C:\\Users\\Azat\\Documents\\GitHub\\AspNetCore_Works\\AspNetCoreMVC_CourseSite\\efCoreApp\\efCoreApp.csproj",
       "projectName": "efCoreApp",
-      "projectPath": "C:\\Users\\Azat\\Documents\\GitHub\\AspNetCore_Works\\efCoreApp\\efCoreApp.csproj",
+      "projectPath": "C:\\Users\\Azat\\Documents\\GitHub\\AspNetCore_Works\\AspNetCoreMVC_CourseSite\\efCoreApp\\efCoreApp.csproj",
       "packagesPath": "C:\\Users\\Azat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Azat\\Documents\\GitHub\\AspNetCore_Works\\efCoreApp\\obj\\",
+      "outputPath": "C:\\Users\\Azat\\Documents\\GitHub\\AspNetCore_Works\\AspNetCoreMVC_CourseSite\\efCoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Azat\\AppData\\Roaming\\NuGet\\NuGet.Config",

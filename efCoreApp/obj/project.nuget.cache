@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OgE/NTFaJP9KPa0HAoIrLgGBhTtemLSqcb/lTLbvuhmHSt9OpdXkzX5/BBV//3GcPL8HB5k16Po5qAsmzUU96w==",
+  "dgSpecHash": "XFo4Bvd3spUycQeDv54ihFMy/LE72ZfCNFbuKQb8Y7R/HMs/GNPnXTVAgwgTb7oqLQyMY9z8U7q1HiR5cOjfoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Azat\\Documents\\GitHub\\AspNetCore_Works\\efCoreApp\\efCoreApp.csproj",
+  "projectFilePath": "C:\\Users\\Azat\\Documents\\GitHub\\AspNetCore_Works\\AspNetCoreMVC_CourseSite\\efCoreApp\\efCoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Azat\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Azat\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.8\\microsoft.data.sqlite.core.7.0.8.nupkg.sha512",

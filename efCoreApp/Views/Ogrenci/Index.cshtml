@@ -19,8 +19,8 @@
                 <td>@Html.DisplayFor(m=>item.OgrenciId)</td>
                 <td>@Html.DisplayFor(m=>item.OgrenciAd)</td>
                 <td>@Html.DisplayFor(m=>item.OgrenciSoyad)</td>
-                <td><a href=""class="btn btn-primary">Details</a></td>
-                <td><a href=""class="btn btn-danger">Delete</a></td>
+                <td><a asp-controller="Ogrenci" asp-action="Edit" asp-route-id ="@item.OgrenciId"class="btn btn-primary">Edit</a></td>
+                <td><a asp-controller="Ogrenci" asp-action="Delete" asp-route-id="@item.OgrenciId" class="btn btn-danger">Delete</a></td>
             </tr>
         }
     </tbody>
