@@ -9,6 +9,10 @@ namespace efCoreApp.Data{
         public string? OgrenciAd { get; set; }
         [Display(Name ="Ögrenci Soyadı")]
         public string? OgrenciSoyad { get; set; }
+        public string AdSoyad { get{
+
+            return this.OgrenciAd+" "+this.OgrenciSoyad;
+        } }
         public string? Eposta { get; set; }
         public string? Telefon { get; set; }
 
