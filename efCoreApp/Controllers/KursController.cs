@@ -28,7 +28,7 @@ namespace efCoreApp.Controllers{
             if(id==null)
             return NotFound();
 
-            var kurs=_context.Kurslar.Find(id);
+            var kurs=await _context.Kurslar.Include(x=>x.KursKayitlari).ThenInclude(x=>x.Ogrenci).FirstOrDefaultAsync(x=>x.KursId==id);
             if(kurs==null)
             return NotFound();
             return View(kurs);

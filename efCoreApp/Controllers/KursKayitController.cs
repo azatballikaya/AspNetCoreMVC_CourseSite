@@ -9,8 +9,9 @@ namespace efCoreApp.Controllers{
         public KursKayitController(DataContext context){
             _context=context;
         }
-        public IActionResult Index(){
-            return View();
+        public async Task<IActionResult> Index(){
+            var kursKayitlari=await _context.KursKayitlari.Include(x=>x.Ogrenci).Include(y=>y.Kurs).ToListAsync();
+            return View(kursKayitlari);
         }
         [HttpGet]
         public async Task<IActionResult> Create(){

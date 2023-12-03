@@ -31,7 +31,7 @@ namespace efCoreApp.Controllers{
             if(id==null)
             return NotFound();
             
-            var ogrenci=await _context.Ogrenciler.FindAsync(id);
+            var ogrenci=await _context.Ogrenciler.Include(x=>x.KursKayitlari).ThenInclude(y=>y.Kurs).FirstOrDefaultAsync(x=>x.OgrenciId==id);
             if(ogrenci==null)
             return NotFound();
 
